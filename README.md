@@ -93,7 +93,7 @@ Main function: `main()`
 
 ### Pin configuration
 
-| OPT3004 | UASRT0 | UASRT1 |
+| LIS2DW12 | UASRT0 | UASRT1 |
 | :---------: | :------: | :-----: |
 | PB0 IIC_SCL | PA9 TXD | PA2 TXD |
 | PB1 IIC_SDA | PA10 RXD | PA3 RXD |
