@@ -1,4 +1,4 @@
-# Tuya IoTOS Embedded MCU Demo Wi-Fi Bluetooth Accelerometer
+# Tuya IoTOS Embedded Wi-Fi & Bluetooth LE Accelerometer
 
 [English](./README.md) | [中文](./README_zh.md)
 
@@ -6,7 +6,7 @@
 
 In this demo, we will show you how to develop with the MCU SDK to enable an LIS2DW12 accelerometer to connect to the Tuya IoT Cloud with the Tuya Smart app.
 
-Features:
+Feature:
 
 + Collect acceleration
 
@@ -16,7 +16,7 @@ Features:
 ## Get started
 
 ### Compile and flash
-+ Download [Tuya IoTOS Embedded MCU SDK](https://registry.code.tuya-inc.top/hardware_developer/tuya-iotos-embeded-mcu-demo-4g-vending-machine/tree/master).
++ Download Tuya IoTOS embedded code.
 
 + Run `Project.uvprojx`
 
@@ -75,7 +75,7 @@ Entry file: `main.c`
 
 Main function: `main()`
 
-+ Initialize the USART and I2C of the MCU as well as the LIS2DW12 accelerometer. All events are polled in while(1)
++ Initialize the USART and I2C of the MCU as well as the LIS2DW12 accelerometer. All events are polled in `while(1)`.
 
 
 
